@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/longhorn/go-common-libs/types"
+	"github.com/TykTechnologies/longhorn-go-common-libs/types"
 )
 
 const (

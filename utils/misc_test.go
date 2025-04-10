@@ -6,7 +6,7 @@ import (
 	"golang.org/x/exp/constraints"
 	. "gopkg.in/check.v1"
 
-	"github.com/longhorn/go-common-libs/test"
+	"github.com/TykTechnologies/longhorn-go-common-libs/test"
 )
 
 func (s *TestSuite) TestContains(c *C) {
@@ -89,7 +89,7 @@ func (s *TestSuite) TestGetFunctionPath(c *C) {
 	testCases := map[string]testCase{
 		"GetFunctionPath(...)": {
 			inputFunction: GetFunctionName,
-			expected:      "github.com/longhorn/go-common-libs/utils.GetFunctionName",
+			expected:      "github.com/TykTechnologies/longhorn-go-common-libs/utils.GetFunctionName",
 		},
 		"GetFunctionPath(...): not a function": {
 			inputFunction: "not a function",

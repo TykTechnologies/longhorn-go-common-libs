@@ -1,4 +1,4 @@
-module github.com/longhorn/go-common-libs
+module github.com/TykTechnologies/longhorn-go-common-libs
 
 go 1.22.7
 

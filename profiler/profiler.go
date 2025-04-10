@@ -15,7 +15,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/longhorn/go-common-libs/utils"
+	"github.com/TykTechnologies/longhorn-go-common-libs/utils"
 )
 
 // ClientContext is the context with the ProfilerClient and the connection

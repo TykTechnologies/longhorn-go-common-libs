@@ -5,7 +5,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/longhorn/go-common-libs/test"
+	"github.com/TykTechnologies/longhorn-go-common-libs/test"
 )
 
 func Test(t *testing.T) { TestingT(t) }

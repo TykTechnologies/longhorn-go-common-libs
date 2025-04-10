@@ -3,7 +3,7 @@ package kubernetes
 import (
 	"context"
 
-	"github.com/longhorn/go-common-libs/test"
+	"github.com/TykTechnologies/longhorn-go-common-libs/test"
 	. "gopkg.in/check.v1"
 
 	"k8s.io/client-go/kubernetes/fake"

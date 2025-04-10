@@ -6,7 +6,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/longhorn/go-common-libs/test/fake"
+	"github.com/TykTechnologies/longhorn-go-common-libs/test/fake"
 )
 
 func (s *TestSuite) TestFileLock(c *C) {

@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/longhorn/go-common-libs/test"
-	"github.com/longhorn/go-common-libs/test/fake"
+	"github.com/TykTechnologies/longhorn-go-common-libs/test"
+	"github.com/TykTechnologies/longhorn-go-common-libs/test/fake"
 
 	. "gopkg.in/check.v1"
 )

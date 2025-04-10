@@ -6,8 +6,8 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/longhorn/go-common-libs/test/fake"
-	"github.com/longhorn/go-common-libs/types"
+	"github.com/TykTechnologies/longhorn-go-common-libs/test/fake"
+	"github.com/TykTechnologies/longhorn-go-common-libs/types"
 )
 
 func (s *TestSuite) TestExecute(c *C) {

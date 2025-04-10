@@ -5,7 +5,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/longhorn/go-common-libs/test"
+	"github.com/TykTechnologies/longhorn-go-common-libs/test"
 
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
